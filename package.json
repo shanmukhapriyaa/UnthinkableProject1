@@ -1,0 +1,21 @@
+{
+  "name": "smart-resume-screener",
+  "version": "1.0.0",
+  "description": "LLM-powered resume screener that parses resumes, extracts structured data, and scores candidate fit against a job description.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
